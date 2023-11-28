@@ -16,42 +16,49 @@
             integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
             crossorigin="anonymous"
         />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="./assets/images/favicon_io/favicon-32x32.png"
+        />
     </head>
     <body>
         <!-- Title -->
-        <section id="title" class="overlay">
+        <section id="title">
             <!-- warriors -->
             <!-- Photo by <a href="https://unsplash.com/@jaimespaniol?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jaime Spaniol</a> on <a href="https://unsplash.com/photos/grey-metal-knights-figurines-during-daytime--L0N74GWsq8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+
+            <!-- light warrior -->
+            <!-- Photo by <a href="https://unsplash.com/@darthxuan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Xuan Nguyen</a> on <a href="https://unsplash.com/photos/woman-wearing-black-dress-beside-body-of-water-LRAHyIUjFps?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+
             <div
-                class="bg-dark text-secondary px-4 py-5 text-center"
+                class="bg-dark text-secondary px-4 py-5 text-center overlay"
                 style="
-                    background-image: url(./assets/images/jaime-spaniol-warriors-unsplash.jpg);
+                    background-image: url(./assets/images/xuan-nguyen-light-warrior-unsplash.jpg);
                     background-repeat: no-repeat;
-                    background-position: center;
+                    background-position: bottom;
                     background-size: cover;
                     height: 500px;
                 "
             >
-                <div class="container">
+                <div class="container z-1000">
                     <!-- Navigation -->
                     <div
                         class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
                     >
+                        <!-- Navigation Icon -->
                         <a
                             href="/"
                             class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
                         >
-                            <svg
-                                class="bi me-2"
-                                width="40"
-                                height="32"
-                                role="img"
-                                aria-label="Bootstrap"
-                            >
-                                <use xlink:href="#bootstrap"></use>
-                            </svg>
+                            <img
+                                src="./assets/images/icons8-warrior-62.png"
+                                alt="ready warrior"
+                                class="bg-light px-1 border border-white rounded-circle"
+                            />
                         </a>
 
+                        <!-- Navigation Menu -->
                         <ul
                             class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small"
                         >
@@ -143,17 +150,12 @@
                 <!-- Hero Text -->
                 <div class="py-5">
                     <h1 class="display-5 fw-bold text-white">
-                        Dark color hero
+                        The Warriors Guild
                     </h1>
                     <div class="col-lg-6 mx-auto">
-                        <p class="fs-5 mb-4">
-                            Quickly design and customize responsive
-                            mobile-first sites with Bootstrap, the
-                            world’s most popular front-end open source
-                            toolkit, featuring Sass variables and
-                            mixins, responsive grid system, extensive
-                            prebuilt components, and powerful
-                            JavaScript plugins.
+                        <p class="fs-3 mb-4 text-white">
+                            We fight for what we believe
+                            in.
                         </p>
                         <div
                             class="d-grid gap-2 d-sm-flex justify-content-sm-center"
@@ -162,13 +164,13 @@
                                 type="button"
                                 class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
                             >
-                                Custom button
+                                Tell Me More!
                             </button>
                             <button
                                 type="button"
                                 class="btn btn-outline-light btn-lg px-4"
                             >
-                                Secondary
+                                Donate Here...
                             </button>
                         </div>
                     </div>
