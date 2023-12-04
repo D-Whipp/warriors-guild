@@ -14,7 +14,7 @@ Maintaining Bootstrap skills.
 
 ## Usage
 
-This sight is not finished, I will provide instructions and a link when this site is complete and deployed.
+You can view this website by clicking this [link](https://d-whipp.github.io/warriors-guild/).
 
 ## Technologies
 
@@ -34,4 +34,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## About
 
+Hello, my name is David  
+You can email me at [dwhipp88@gmail.com](mailto:dwhipp88@gmail.com)  
+You can view my [github](https://github.com/D-Whipp).  
+Check out my [portfolio](https://splendid-ganache-f82581.netlify.app/).  
+Let's make a connection! [LinkedIn](https://www.linkedin.com/in/david-w-079841213/)
+
 ## Badges
+
+![html5](https://img.shields.io/badge/html5-HyperTextMarkupLanguage-darkblue)
+![css3](https://img.shields.io/badge/css3-CascadingStyleSheets-darkblue)
+![bootstrap](https://img.shields.io/badge/layout-Bootstrap5-darkblue)
