@@ -50,5 +50,16 @@ body {
         background-color: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(10px);
     }
+
+    .ipad-mini-img-max-height {
+        /* height: 400px; */
+        /* width: 100px; */
+    }
+}
+
+@media (max-width: 431px) {
+    .pt-10 {
+        padding-top: 30px;
+    }
 }
 
