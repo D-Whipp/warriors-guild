@@ -41,6 +41,6 @@ body {
 /* ***** RESPONSIVE STYLING ***** */
 @media screen and (max-width: 1181px) {
     .mobile-viewport-height {
-        height: 62%;
+        height: 20%;
     }
 }
